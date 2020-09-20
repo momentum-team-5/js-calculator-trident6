@@ -14,19 +14,30 @@
     flex: 1 1 auto;
 }
 
+.button:hover {
+    font-size: 3.25rem;
+    background-image: linear-gradient(to bottom right, rgba(200, 200, 200, 0), rgba(100, 100, 100, 0.5));
+}
+
+.button:focus {
+    outline: 0;
+    box-shadow: inset 0px 0px 15px #232c33ff;
+}
+
 .button,
 .operator,
 .equal {
     margin: 0rem;
     background-color: greenyellow;
+    border-radius: 10px;
     border: 4px solid rgb(23, 72, 23);
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     font-size: 2.5rem;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .message {
@@ -39,8 +50,18 @@
     /* padding: 0rem; */
     color: black;
     font-size: 2.5rem;
-    width: 450px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
+}
+
+.operator:hover {
+    font-size: 3.25rem;
+    background-image: linear-gradient(to bottom right, rgba(200, 200, 200, 0), rgba(100, 100, 100, 0.5));
+}
+
+.operator:focus {
+    outline: 0;
+    box-shadow: inset 0px 0px 15px #232c33ff;
 }
 
 .operator {
@@ -52,6 +73,16 @@
     justify-content: center;
     color: black;
     font-size: 2.5rem;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.equal:hover {
+    font-size: 3.25rem;
+    background-image: linear-gradient(to bottom right, rgba(200, 200, 200, 0), rgba(100, 100, 100, 0.5));
+}
+
+.equal:focus {
+    outline: 0;
+    box-shadow: inset 0px 0px 15px #232c33ff;
 }

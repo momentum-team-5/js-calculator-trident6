@@ -18,7 +18,9 @@ button.addEventListener('click', function(event) {
             // let messageDiv = document.getElementById('message')
             // let messageParaOld = messageDiv.getElementsByTagName('p')[0]
             // messageDiv.removeChild(messageParaOld)
-        output = eval(input)
+        num = eval(input)
+        output = Math.round(num * 10000) / 10000
+
         console.log('equal')
         console.log(output)
     }
